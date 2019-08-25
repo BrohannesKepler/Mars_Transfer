@@ -1,0 +1,10 @@
+Earth to Mars direct transfer trajectory solver.
+
+This script requests a departure and arrival date from the user, as well as a 
+desired arrival parking orbit altitude, and computes the transfer trajectory 
+to Mars, using a solution to Lambert's problem, as well as Battin's method to 
+determine the shape of the departure hyperbola. The arrival hyperbola is also 
+shaped in order to view the trajectory.
+
+The deltaV's required at departure injection as well as arrival orbit insertion 
+are computed, as well as the required C3 [km^2/s^2]. Impulsive burns are assumed, as well as a direct transfer to Mars. 
